@@ -14,13 +14,13 @@ function Food() {
                     >ARCA</NavLink>
                     <div className=' flex flex-col top-[37vh] absolute'>
                         <NavLink className=' border my-3 place-self-center w-[12rem] tracking-[0.3rem] py-1 px-7 text-sm font-normal text-slate-50'
-
+                        to={'/carte'}
                         >A LA CARTE</NavLink>
                         <NavLink className=' border my-3 place-self-center w-[12rem] tracking-[0.3rem] py-1 px-3 text-sm font-normal text-slate-50'
-
+                        to={'/tasting'}
                         >TASTING MENU</NavLink>
                         <NavLink className=' border my-3 place-self-center w-[12rem] tracking-[0.5rem] py-1 px-7 text-sm font-normal text-slate-50'
-
+                        to={'/prefix'}
                         >PREFIX</NavLink>
                     </div>
                     <div className=' absolute bottom-[10%] flex flex-row items-center justify-between'>

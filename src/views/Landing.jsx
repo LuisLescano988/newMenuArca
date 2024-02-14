@@ -8,7 +8,7 @@ const Home = () => {
     <section className=''>
       <div className=' flex justify-center items-center'>
         <div className=' flex flex-col items-center text-center z-20'>
-          <div className=' absolute top-24 text-slate-50 font-canter font-extrabold text-8xl'>ARCA</div>
+          <div className=' absolute top-24 text-slate-50 font-canter font-medium text-8xl'>ARCA</div>
           <div className=' flex flex-col top-[40vh] absolute'>
             <NavLink className=' border my-3 place-self-center w-[12rem] tracking-[0.5rem] py-1 px-7 text-sm font-normal text-slate-50'
             to={'/english'}

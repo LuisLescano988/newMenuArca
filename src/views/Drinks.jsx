@@ -14,13 +14,13 @@ function Drinks() {
                     >ARCA</NavLink>
                     <div className=' flex flex-col top-[37vh] absolute'>
                         <NavLink className=' border my-3 place-self-center w-[12rem] tracking-[0.5rem] py-1 px-7 text-sm font-normal text-slate-50'
-
+                        to={'/cocktails'}
                         >COCKTAILS</NavLink>
                         <NavLink className=' border my-3 place-self-center w-[12rem] tracking-[0.5rem] py-1 px-3 text-sm font-normal text-slate-50'
-
+                        to={'/wines'}
                         >WINES</NavLink>
                         <NavLink className=' border my-3 place-self-center w-[12rem] tracking-[0.5rem] py-1 px-7 text-sm font-normal text-slate-50'
-
+                        to={'/beverages'}
                         >BEVERAGES</NavLink>
                     </div>
                     <div className=' absolute bottom-[10%] flex flex-row items-center justify-between'>

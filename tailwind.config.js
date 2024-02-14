@@ -7,7 +7,6 @@ export default {
   theme: {
     fontFamily: {
       eloquent: ["Eloquent", "sweet-sans"],
-      catorze: ["Catorze", "sweet-sans"],
       canter: ["Canter", "sweet-sans"]
     },
     extend: {},
