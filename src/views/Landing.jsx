@@ -2,13 +2,16 @@ import React from 'react'
 import { FaInstagram } from 'react-icons/fa'
 import { NavLink } from 'react-router-dom'
 import Carousel from '../components/Carousel'
+import logo from '../assets/logoArca.png'
 
 const Home = () => {
   return (
     <section className=''>
       <div className=' flex justify-center items-center'>
         <div className=' flex flex-col items-center text-center z-20'>
-          <div className=' absolute top-24 text-slate-50 font-canter font-medium text-8xl'>ARCA</div>
+        <NavLink className=' absolute top-20 text-slate-50 font-canter font-extrabold text-8xl'
+                        to={'/'}
+                    ><img className=' z-20 h-32' src={logo} alt="" /></NavLink>
           <div className=' flex flex-col top-[40vh] absolute'>
             <NavLink className=' border my-3 place-self-center w-[12rem] tracking-[0.5rem] py-1 px-7 text-sm font-normal text-slate-50'
             to={'/english'}

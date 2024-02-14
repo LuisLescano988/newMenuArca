@@ -2,6 +2,7 @@ import React from 'react'
 import Carousel from '../components/Carousel'
 import { NavLink } from 'react-router-dom'
 import { FaInstagram } from 'react-icons/fa'
+import logo from '../assets/logoArca.png'
 
 
 function Comidas() {
@@ -9,9 +10,9 @@ function Comidas() {
         <section className=' bg-black'>
             <div className=' flex justify-center items-center'>
                 <div className=' flex flex-col items-center text-center z-20'>
-                    <NavLink className=' absolute top-24 text-slate-50 font-canter font-extrabold text-8xl'
+                <NavLink className=' absolute top-20 text-slate-50 font-canter font-extrabold text-8xl'
                         to={'/'}
-                    >ARCA</NavLink>
+                    ><img className=' z-20 h-32' src={logo} alt="" /></NavLink>
                     <div className=' flex flex-col top-[37vh] absolute'>
                         <NavLink className=' border my-3 place-self-center w-[12rem] tracking-[0.3rem] py-1 px-7 text-sm font-normal text-slate-50'
                         to={'/carta'}

@@ -19,7 +19,7 @@ const Carousel = () => {
   return (
     <div>
          <Swiper
-        className=' opacity-40'
+        className=' opacity-30'
         effect={'fade'}
         slidesPerView={1}
         spaceBetween={10}
