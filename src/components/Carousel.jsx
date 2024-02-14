@@ -26,7 +26,7 @@ const Carousel = () => {
         loop={true}
         centeredSlides={true}
         autoplay={{
-          delay: 3200,
+          delay: 2000,
           disableOnInteraction: false,
         }}
         speed={900}
