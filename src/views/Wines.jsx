@@ -2,6 +2,7 @@ import React from 'react'
 import img1 from '../assets/menus/wines/wines1.jpg'
 import img2 from '../assets/menus/wines/wines2.jpg'
 import img3 from '../assets/menus/wines/wines3.jpg'
+import img4 from '../assets/menus/wines/wines4.jpg'
 import { TiArrowBackOutline } from 'react-icons/ti'
 import { NavLink } from 'react-router-dom'
 
@@ -16,6 +17,7 @@ const Wines = () => {
             <img className=' md:h-full md:m-auto' src={img1} alt="" />
             <img className=' md:h-full md:m-auto' src={img2} alt="" />
             <img className=' md:h-full md:m-auto' src={img3} alt="" />
+            <img className=' md:h-full md:m-auto' src={img4} alt="" />
     </div>
   )
 }
