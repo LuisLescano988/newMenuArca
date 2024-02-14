@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Eloquent;
+    src: url(/src/assets/fonts/eloquentjfregularpro.woff2);
+}
+
+@font-face {
+    font-family: Canter;
+    src: url(/src/assets/fonts/CanterBold.woff2);
+}
