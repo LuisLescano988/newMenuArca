@@ -23,17 +23,17 @@ const Home = () => {
           <div className=' absolute bottom-[10%] flex flex-row items-center justify-between'>
             <div className=' w-1/4 flex flex-col justify-center'>
               <div className=' text-slate-50 tracking-[0.1rem] font-eloquent text-[0.4rem]'>LATIN</div>
-              <div className=' text-slate-50 tracking-[0.05rem] -mt-[0.14rem] font-eloquent text-[0.36rem]'>AMERICA'S</div>
-              <div className=' text-slate-50 tracking-[-0.4rem] font-eloquent scale-x-110 text-5xl mr-3'>50</div>
-              <div className=' text-slate-50 tracking-[-0.25rem] font-eloquent -mt-3 mr-2 text-[1.4rem]'>BEST</div>
-              <div className=' text-slate-50 tracking-[0.07rem] font-eloquent -mt-[0.67rem] text-[0.33rem]'>RESTAURANTS</div>
+              <div className=' text-slate-50 tracking-[0.05rem] -mt-[0.04rem] font-eloquent text-[0.36rem]'>AMERICA'S</div>
+              <div className=' text-slate-50 tracking-[-0.4rem] font-eloquent -mt-[0.44rem] scale-x-110 text-5xl mr-3'>50</div>
+              <div className=' text-slate-50 tracking-[-0.25rem] font-eloquent -mt-2 mr-2 text-[1.4rem]'>BEST</div>
+              <div className=' text-slate-50 tracking-[0.07rem] font-eloquent -mt-[0.37rem] text-[0.33rem]'>RESTAURANTS</div>
             </div>
             <NavLink className=' flex flex-row items-center text-[0.6rem] mx-10 font-semibold tracking-[0.2rem] w-2/4 text-slate-50'> <FaInstagram className=' mr-1'/>@ARCATULUM</NavLink>
             <div className='w-1/4'>
               <div className=' text-slate-50 tracking-[0.1rem] font-eloquent text-[0.4rem]'>NORTH</div>
               <div className=' text-slate-50 tracking-[0.05rem] -mt-[0.14rem] font-eloquent text-[0.36rem]'>AMERICA'S</div>
-              <div className=' text-slate-50 tracking-[-0.4rem] font-eloquent scale-x-110 text-5xl mr-3'>50</div>
-              <div className=' text-slate-50 tracking-[-0.1rem] font-eloquent -mt-3 mr-2 text-[1.2rem]'>BEST</div>
+              <div className=' text-slate-50 tracking-[-0.4rem] font-eloquent -mt-[0.64rem] scale-x-110 text-5xl mr-3'>50</div>
+              <div className=' text-slate-50 tracking-[-0.1rem] font-eloquent -mt-1 mr-2 text-[1.2rem]'>BEST</div>
               <div className=' text-slate-50 tracking-[-0.02rem] font-eloquent -mt-3 mr-2 text-[0.9rem]'>BARS</div>
             </div>
           </div>
