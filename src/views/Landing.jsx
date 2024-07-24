@@ -18,7 +18,7 @@ const Home = () => {
             >ENGLISH</NavLink>
             <NavLink className=' border my-3 place-self-center w-[12rem] tracking-[0.5rem] py-1 px-7 text-sm font-normal text-slate-50'
             to={'/spanish'}
-            >SPANISH</NavLink>
+            >ESPAÑOL</NavLink>
           </div>
           <div className=' absolute bottom-[10%] flex flex-row items-center justify-between'>
             <div className=' w-1/4 flex flex-col justify-center'>
