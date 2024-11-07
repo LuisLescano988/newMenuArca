@@ -19,6 +19,7 @@ import Prefij from './views/Prefij'
 import Cocteles from './views/Cocteles'
 import Vinos from './views/Vinos'
 import Brebajes from './views/Brebajes'
+import QRGenerator from './views/Qrmenu'
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
         <Route path="/carta" element={<Carta />} />
         <Route path="/degustacion" element={<Degustacion />} />
         <Route path="/prefij" element={<Prefij />} />
+        <Route path="/qr" element={<QRGenerator />} />
       </Routes>
     </div>
   )
