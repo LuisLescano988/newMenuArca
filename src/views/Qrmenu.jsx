@@ -3,7 +3,7 @@ import { QRCodeSVG } from 'qrcode.react';
 
 const QRGenerator = () => {
   // Reemplaza esta URL con la de tu sitio en Vercel
-  const url = "https://tu-proyecto.vercel.app";
+  const url = "https://new-menu-arca.vercel.app/";
   
   const downloadQR = () => {
     const svg = document.getElementById("qr-code");
