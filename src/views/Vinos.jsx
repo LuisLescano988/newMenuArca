@@ -24,8 +24,8 @@ const Vinos = () => {
             <img className=' md:h-full md:m-auto' src={img4} alt="" />
             <img className=' md:h-full md:m-auto' src={img5} alt="" />
             <img className=' md:h-full md:m-auto' src={img6} alt="" />
-            <img className=' md:h-full md:m-auto' src={img7} alt="" />
-            <img className=' md:h-full md:m-auto' src={img8} alt="" />
+            {/* <img className=' md:h-full md:m-auto' src={img7} alt="" />
+            <img className=' md:h-full md:m-auto' src={img8} alt="" /> */}
     </div>
   )
 }
