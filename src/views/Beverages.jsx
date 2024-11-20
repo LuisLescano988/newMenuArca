@@ -1,113 +1,21 @@
-import React from 'react';
-
-
-
-const SectionTitle = ({ title }) => (
-  <h2 className="text-xl tracking-[1em] font-light mb-8 uppercase">
-    {title}
-  </h2>
-);
-
-const MenuItem = ({ name, price }) => (
-  <div className="flex justify-between items-baseline mb-4">
-    <h3 className="text-lg font-extralight">{name}</h3>
-    <span className="text-lg font-extralight">{price}</span>
-  </div>
-);
-
-const MenuSection = ({ title, items }) => (
-  <div className="mb-16">
-    <SectionTitle title={title} />
-    <div className="space-y-4">
-      {items.map((item, index) => (
-        <MenuItem key={index} {...item} />
-      ))}
-    </div>
-  </div>
-);
+import React from 'react'
+import img1 from '../assets/menus/beverages/beverages1.jpg'
+import img2 from '../assets/menus/beverages/beverages2.jpg'
+import { TiArrowBackOutline } from 'react-icons/ti'
+import { NavLink } from 'react-router-dom'
 
 const Beverages = () => {
-
-  const beveragesData = {
-    beer: [
-      {
-        name: "Agua De Mar Citrus Pale Ale",
-        price: "220"
-      },
-      {
-        name: "Loba Lager",
-        price: "180"
-      },
-      {
-        name: "La Lupulosa IPA",
-        price: "180"
-      },
-      {
-        name: "Haka Negui Consup Pilsner",
-        price: "200"
-      },
-      {
-        name: "Lindemann's Apple Beer",
-        price: "200"
-      }
-    ],
-    beverages: [
-      {
-        name: "Acqua Panna Still",
-        price: "200"
-      },
-      {
-        name: "San Pellegrino",
-        price: "200"
-      },
-      {
-        name: "Agua Franca Still",
-        price: "150"
-      },
-      {
-        name: "Agua Franca Sparklin",
-        price: "150"
-      },
-      {
-        name: "Tonic Water",
-        price: "80"
-      },
-      {
-        name: "Ginger Ale",
-        price: "80"
-      },
-      {
-        name: "Ginger Birra Non Alcoholic",
-        price: "100"
-      },
-      {
-        name: "Coca Cola",
-        price: "80"
-      }
-    ],
-    coffee: [
-      {
-        name: "Espresso",
-        price: "90"
-      },
-      {
-        name: "Lungo",
-        price: "100"
-      },
-      {
-        name: "Americano",
-        price: "110"
-      }
-    ]
-  };
-
   return (
-    <div className="max-w-4xl mx-auto p-8 bg-[#fef0e6] min-h-screen">
-      <MenuSection title="B E E R" items={beveragesData.beer} />
-      <MenuSection title="B E V E R A G E S" items={beveragesData.beverages} />
-      <MenuSection title="C O F F E E" items={beveragesData.coffee} />
+    <div>
+        <NavLink className=' to-slate-50 fixed top-5 left-5 rounded-md bg-slate-900'
+            to={'/drinks'}
+            >
+                <TiArrowBackOutline className=' text-slate-50' />
+            </NavLink>
+            <img className=' md:h-full md:m-auto' src={img1} alt="" />
+            <img className=' md:h-full md:m-auto' src={img2} alt="" />
     </div>
-  );
-};
+  )
+}
 
-export default Beverages;
+export default Beverages
