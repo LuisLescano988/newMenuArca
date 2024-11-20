@@ -1,79 +1,21 @@
-import React from 'react';
-
-const CourseItem = ({ description, index }) => (
-  <div className="mb-12">
-    <p className="text-lg font-extralight leading-relaxed">
-      {description}
-    </p>
-  </div>
-);
-
-const FooterNote = ({ text }) => (
-  <p className="text-sm font-extralight text-gray-600 italic">
-    {text}
-  </p>
-);
+import React from 'react'
+import img1 from '../assets/menus/tasting/tasting1.jpg'
+import img2 from '../assets/menus/tasting/tasting2.jpg'
+import { TiArrowBackOutline } from 'react-icons/ti'
+import { NavLink } from 'react-router-dom'
 
 const Tasting = () => {
-
-  const tastingData = {
-    items: [
-      {
-        description: "Sea Urchin and scallop ceviche - mandarin, marigold and chile mixe aguachile chapulines - jicama kimchi"
-      },
-      {
-        description: "Grilled octopus terrine tostada - cotija cheese crisp\nsmoked peanut and sesame salsa macha"
-      },
-      {
-        description: "Cured and smoked seabass - fish skin chicharron\nsea weed and lemongrass aguachile"
-      },
-      {
-        description: "Spider crab flauta - lemongrass and coconut mole - chive emulsion - caviar"
-      },
-      {
-        description: "Soft shell crab in amaranth and mezcal tempura - hoja santa emulsion\nfermented habanero and xoconostle salsa"
-      },
-      {
-        description: "Seared Campeche prawns - morita chili oil - plantain vinegar\nmanzano chili salsa - flour tortillas"
-      },
-      {
-        description: "Wagyu - black sesame tlayuda - crispy sweetbreads\nbone marrow and huitlacoche mole"
-      },
-      {
-        description: "Suckling pig chicharrón - roasted bone marrow - oxtail carnitas\nblood tortillas - salsa verde - cooking juices"
-      },
-      {
-        description: "Marquesita - goat cheese and coconut icecream - dulce de leche\nguayaba and hibiscus reduction"
-      },
-      {
-        description: "Roasted banana tamal - chamomile & Tabasco chocolate ice cream\npecan crumble - chamomile kombucha reduction"
-      }
-    ],
-    footer: [
-      "*The complete table must take the tasting menu, up to 4 people",
-      "*By reservation only"
-    ]
-   };
-
   return (
-    <div className="max-w-4xl mx-auto p-8 bg-[#fef0e6] min-h-screen">
-      <div className="space-y-8 mb-16">
-        {tastingData.items.map((item, index) => (
-          <CourseItem
-            key={index}
-            description={item.description}
-            index={index + 1}
-          />
-        ))}
-      </div>
-
-      <div className="mt-16 space-y-2">
-        {tastingData.footer.map((note, index) => (
-          <FooterNote key={index} text={note} />
-        ))}
-      </div>
+    <div>
+        <NavLink className=' to-slate-50 fixed top-5 left-5 rounded-md bg-slate-900'
+            to={'/food'}
+            >
+                <TiArrowBackOutline className=' text-slate-50' />
+            </NavLink>
+            <img className=' md:h-full md:m-auto' src={img1} alt="" />
+            <img className=' md:h-full md:m-auto' src={img2} alt="" />
     </div>
-  );
-};
+  )
+}
 
-export default Tasting;
+export default Tasting

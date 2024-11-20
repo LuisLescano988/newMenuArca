@@ -17,9 +17,9 @@ function Bebidas() {
                         <NavLink className=' border my-3 place-self-center w-[12rem] tracking-[0.5rem] py-1 px-7 text-sm font-normal text-slate-50'
                         to={'/cocteles'}
                         >CÓCTELES</NavLink>
-                        {/* <NavLink className=' border my-3 place-self-center w-[12rem] tracking-[0.5rem] py-1 px-3 text-sm font-normal text-slate-50'
+                        <NavLink className=' border my-3 place-self-center w-[12rem] tracking-[0.5rem] py-1 px-3 text-sm font-normal text-slate-50'
                         to={'/vinos'}
-                        >VINOS</NavLink> */}
+                        >VINOS</NavLink>
                         <NavLink className=' border my-3 place-self-center w-[12rem] tracking-[0.5rem] py-1 px-7 text-sm font-normal text-slate-50'
                         to={'/bebid'}
                         >BEBIDAS</NavLink>
