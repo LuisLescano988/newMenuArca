@@ -8,6 +8,7 @@ const CourseItem = ({ description, index }) => (
   </div>
 );
 
+
 const FooterNote = ({ text }) => (
   <p className="text-sm font-extralight text-gray-600 italic">
     {text}
