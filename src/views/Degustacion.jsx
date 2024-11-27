@@ -56,7 +56,7 @@ const Degustacion = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-8 bg-[#fef0e6] min-h-screen">
+    <div className="max-w-6xl mx-auto p-8 bg-[#fef0e6] min-h-screen">
       <div className="space-y-8 mb-16">
         {degustacionData.items.map((item, index) => (
           <CourseItem

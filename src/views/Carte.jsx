@@ -4,12 +4,12 @@ import { BiLeaf } from "react-icons/bi";
 const MenuItem = ({ name, price, description, isVegetarian }) => (
   <div className="mb-12">
     <div className="flex justify-between items-baseline">
-      <h2 className="text-xl tracking-tight font-extralight underline uppercase">
+      <h2 className="text-2xl tracking-tight font-extralight underline uppercase">
         {name} {isVegetarian && <BiLeaf className="inline ml-1" />}
       </h2>
-      <span className="text-lg font-extralight">{price}</span>
+      <span className="text-2xl font-extralight">{price}</span>
     </div>
-    <div className="mt-2 text-gray-700 font-extralight tracking-tight leading-relaxed">
+    <div className="mt-2 text-2xl text-gray-700 font-extralight tracking-tight leading-relaxed">
       {description.split('\n').map((line, i) => (
         <p key={i} className={i > 0 ? 'mt-1' : ''}>
           {line}
@@ -67,6 +67,54 @@ const Carte = () => {
       name: "SMOKED TROUT TOSTADA",
       description: "crispy skin - trout roe - green allspice leaf sauce emulsion\npickled goose berrys - smoked crema",
       price: "800"
+    },
+    {
+      name: "STRIPPED SEABASS",
+      description: "seared in coconut oil - green mole - local basil - coconut & jicama slaw",
+      price: "800"
+    },
+    {
+      name: "THE WHOLE SQUASH",
+      description: "roasted local squash - quash flowers - grilled squash leafs\ncrispy squash seed",
+      price: "580",
+      isVegetarian: true
+    },
+    {
+      name: "MAYAN OCTOPUS",
+      description: "lentil pure - lentil granola - pickled radishes - longaniza\nxcatic & allspice leaf salsa",
+      price: "780"
+    },
+    {
+      name: "SUCKLING PIG",
+      description: "crispy belly - smoked carnitas - cinnamon leaf oil - rice bean\nsoursop & sea purslane salsa",
+      price: "850"
+    },
+    {
+      name: "BONE MARROW",
+      description: "toasted in the woodfire oven - tamarind and pasilla glace\ngrilled pulque sourdough - serrano salsa",
+      price: "680"
+    },
+    {
+      name: "GRILLED MUSHROOM TLAYUDA",
+      description: "mushroom chicharrón - huitlacoche mole - chives - coriander\nblack sesame seed - nasturtium",
+      price: "550"
+    },
+    {
+      name: "MEXICAN WAGYU TLAYUDA",
+      description: "grilled flank steak - oxtail carnitas - smoked yuca pure - huilacoche mole",
+      price: "900"
+    },
+    {
+      name: "GRILLED SOURDOUGH PULQUE BREAD",
+      description: "coconut butter",
+      price: "280",
+      isVegetarian: true
+    },
+    {
+      name: "COCONUT FLOUR TORTILLA",
+      description:"",
+      price: "280",
+      isVegetarian: true
     }
   ];
 

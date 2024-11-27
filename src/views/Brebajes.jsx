@@ -10,8 +10,8 @@ const SectionTitle = ({ title }) => (
 
 const MenuItem = ({ name, price }) => (
   <div className="flex justify-between items-baseline mb-4">
-    <h3 className="text-lg font-extralight">{name}</h3>
-    <span className="text-lg font-extralight">{price}</span>
+    <h3 className="text-2xl font-extralight">{name}</h3>
+    <span className="text-2xl font-extralight">{price}</span>
   </div>
 );
 
@@ -102,7 +102,7 @@ const Brevajes = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-8 bg-[#fef0e6] min-h-screen">
+    <div className="max-w-6xl mx-auto p-8 bg-[#fef0e6] min-h-screen">
       <MenuSection title="C E R V E Z A" items={beveragesData.cerveza} />
       <MenuSection title="R E F R E S C O S" items={beveragesData.refrescos} />
       <MenuSection title="C A F E T E R I A" items={beveragesData.cafeteria} />

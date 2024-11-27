@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SectionTitle = ({ title }) => (
-    <h2 className="text-xl tracking-[2em] font-light mb-12 uppercase">
+    <h2 className="text-xl tracking-[1.5em] font-light mb-12 uppercase">
         {title}
     </h2>
 );
@@ -175,7 +175,7 @@ const CocktailsMenu = () => {
        ];
 
     return (
-        <div className="max-w-4xl mx-auto p-8 bg-[#fef0e6] min-h-screen">
+        <div className="max-w-6xl mx-auto p-8 bg-[#fef0e6] min-h-screen">
             {cocktailsData.map((section, index) => (
                 <MenuSection key={index} {...section} />
             ))}

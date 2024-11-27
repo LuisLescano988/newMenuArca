@@ -4,12 +4,12 @@ import { BiLeaf } from "react-icons/bi";
 const MenuItem = ({ name, price, description, isVegetarian }) => (
   <div className="mb-12">
     <div className="flex justify-between items-baseline">
-      <h2 className="text-xl tracking-tight font-extralight underline uppercase">
+      <h2 className="text-2xl tracking-tight font-extralight underline uppercase">
         {name} {isVegetarian && <BiLeaf className="inline ml-1" />}
       </h2>
-      <span className="text-lg font-extralight">{price}</span>
+      <span className="text-2xl font-extralight">{price}</span>
     </div>
-    <div className="mt-2 text-gray-700 font-extralight tracking-tight leading-relaxed">
+    <div className="mt-2 text-2xl text-gray-700 font-extralight tracking-tight leading-relaxed">
       {description.split('\n').map((line, i) => (
         <p key={i} className={i > 0 ? 'mt-1' : ''}>
           {line}
@@ -22,56 +22,104 @@ const MenuItem = ({ name, price, description, isVegetarian }) => (
 const Carta = () => {
   const menuItems = [
     {
-      name: "DZIKILPAK",
-      description: "smoked pumpkin seeds - chive oil - heirloom coriander - xoconostle\ncrispy heirloom corn tostada",
-      price: "520",
-      isVegetarian: true
+      "name": "DZIKILPAK",
+      "description": "Dip de pepitas ahumadas - miso de pepitas - flor de calabaza -\ncilantro criollo - aceite de cebollín - tostadas tatemadas",
+      "price": "520",
+      "isVegetarian": true
     },
     {
-      name: "SCALLOP CRUDO",
-      description: "smoked pumpkin seeds - chive oil - heirloom coriander - xoconostle\ncrispy heirloom corn tostada\nadd caviar + 1200",
-      price: "850"
+      "name": "CRUDO DE CALLO DE HACHA",
+      "description": "Aguachile de serrano y tomatillo fermentado - aceite de sacate limón -\npolvo de lechuga de mar - salicornia - chicharrón de callo y amaranto\n- kosho de lima local - aguacate y pepino parrillado",
+      "price": "850"
     },
     {
-      name: "BLUEFIN TUNA CRUDO",
-      description: "hibiscus and fermented plum aguachile - morita chili - dulce seaweed\npurple basil",
-      price: "780"
+      "name": "CRUDO DE ATÚN ALETA AZUL",
+      "description": "Aguachile de chile morita y ciruela local fermentada - kosho de jamaica -\noxalis - toronja - rábano sandía lacto fermentado - tostadas de tapioca",
+      "price": "780"
     },
     {
-      name: "VENISSON TARTARE",
-      description: "smoked salsa macha - jícama - cotixa cheese - blood tostadas",
-      price: "660"
+      "name": "TARTAR VENADO LOCAL",
+      "description": "Salsa macha - jícama - queso cotixa - chaya parrilllada - tostadas\ntatemadas",
+      "price": "660"
     },
     {
-      name: "GRILLED BROCCOLINI",
-      description: "herb cesar dressing - fried capers - crispy bread - parmesan crisps\ntoasted seaweed",
-      price: "550",
-      isVegetarian: true
+      "name": "BROCOLINI PARRILLADO",
+      "description": "Aderezo césar - suero de parmesano - cebollín - parmesano crujiente\n- alcaparras fritas",
+      "price": "550",
+      "isVegetarian": true
     },
     {
-      name: "SOFTSHELL CRAB TACO",
-      description: "amaranth and mezcal tempura - hoja santa emulsion -\nfermented habanero & xoconostle salsa",
-      price: "600"
+      "name": "TACOS DE JAIBA CONCHA SUAVE",
+      "description": "En témpura de amaranto y mezcal - kosho de xoconostle y habanero\n- emulsión de hoja santa - hoja santa parrillada",
+      "price": "600"
     },
     {
-      name: "CRAB ESQUITES",
-      description: "heirloom corn - crab meat - coconut crab bisque - charred heirloom\ntomato - chives",
-      price: "700"
+      "name": "CAMARONES DE CAMPECHE",
+      "description": "Rostisados en mantequilla de chile morita - vinagre de\nplátano macho - salsa de chile manzano",
+      "price": "700"
     },
     {
-      name: "ROASTED PRAWNS",
-      description: "morita chili - plantain vinegar - prawn butter - manzano chili ferment",
-      price: "700"
+      "name": "ESQUITES DE CANGREJO",
+      "description": "Maíz cacahuazintle - carne de cangrejo ahumada - bisque cangrejo\ny coco - polvo de flamboyan - maíz tostado - chorizo",
+      "price": "700"
     },
     {
-      name: "SMOKED TROUT TOSTADA",
-      description: "crispy skin - trout roe - green allspice leaf sauce emulsion\npickled goose berrys - smoked crema",
-      price: "800"
+      "name": "TOSTADA DE TRUCHA AHUMADA",
+      "description": "En hojas de pimiento gorda - chicharrón de piel de trucha - emulsión de\naceite de hojas verdes de pimienta gorda - grosella fermentada - cilantro",
+      "price": "800"
+    },
+    {
+      "name": "LOBINA RAYADA",
+      "description": "Sellada en aceite de coco - mole verde caribeño - ensalada de\ncoco y jícama - serrano - aceite de albahaca local",
+      "price": "800"
+    },
+    {
+      "name": "CALABAZA LOCAL",
+      "description": "A la parrilla - témpura de flores de calabaza - ensalada de hojas de calabaza\ny guías - mole de semillas de calabaza - granola de pepitas tostadas",
+      "price": "580",
+      "isVegetarian": true
+    },
+    {
+      "name": "PULPO AL PASTOR",
+      "description": "Cocinado en tepache - adobo de guajillo - mole de lentejas - granola de\nlentejas - rábanos encurtidos - salsa de chile xcatix y pimienta gorda",
+      "price": "780"
+    },
+    {
+      "name": "CARNITAS DE LECHÓN",
+      "description": "Ahumadas en madera de canela fresca - reducción de orejón -\nverdogala - vinagre de mucílago de cacao local - aceite de hojas\nverdes de canela - tortillas",
+      "price": "850"
+    },
+    {
+      "name": "TUÉTANO ROSTIZADO",
+      "description": "Rostizado al horno de leña - glaseado de tamarindo y\npasilla - chile serrano - pan de pulque a la parrilla",
+      "price": "680"
+    },
+    {
+      "name": "TLAYUDA DE SETAS",
+      "description": "Setas parrilladas - chicharrón de hongos - mole de huitlacoche\ncebollón - sésamo negro - mastuerzo",
+      "price": "550"
+    },
+    {
+      "name": "TLAYUDA DE WAGUY MEXICANO",
+      "description": "Sésamo negro - mole de huitlacoche y tuétano - queso\nchiapas - carnitas de rabo de toro",
+      "price": "900"
+    },
+    {
+      "name": "PAN DE PULQUE",
+      "description": "mantequilla de coco",
+      "price": "280",
+      "isVegetarian": true
+    },
+    {
+      "name": "TORTILLAS",
+      "description": "de harina",
+      "price": "280",
+      "isVegetarian": true
     }
   ];
 
   return (
-    <div className="max-w-5xl mx-auto p-8 bg-[#fef0e6] min-h-screen">
+    <div className="max-w-6xl mx-auto p-8 bg-[#fef0e6] min-h-screen">
       <div className="space-y-4">
         {menuItems.map((item, index) => (
           <MenuItem key={index} {...item} />

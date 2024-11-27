@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SectionTitle = ({ title }) => (
-    <h2 className="text-xl tracking-[1em] font-light mb-12 uppercase">
+    <h2 className="text-2xl tracking-[1em] font-light mb-12 uppercase">
         {title}
     </h2>
 );
@@ -9,10 +9,10 @@ const SectionTitle = ({ title }) => (
 const CocktailItem = ({ name, description, price }) => (
     <div className="mb-8">
         <div className="flex justify-between items-baseline">
-            <h3 className="text-lg font-extralight">{name}</h3>
-            <span className="text-lg font-extralight">{price}</span>
+            <h3 className="text-2xl font-extralight">{name}</h3>
+            <span className="text-2xl font-extralight">{price}</span>
         </div>
-        <p className="text-gray-700 font-extralight mt-1 pr-20">
+        <p className="text-gray-700 text-2xl font-extralight mt-1 pr-20">
             {description}
         </p>
     </div>
@@ -175,7 +175,7 @@ const CocktailsMenu = () => {
     ];
 
     return (
-        <div className="max-w-4xl mx-auto p-8 bg-[#fef0e6] min-h-screen">
+        <div className="max-w-6xl mx-auto p-8 bg-[#fef0e6] min-h-screen">
             {cocktailsData.map((section, index) => (
                 <MenuSection key={index} {...section} />
             ))}

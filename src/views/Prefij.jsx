@@ -2,7 +2,7 @@ import React from 'react';
 
 const MenuItem = ({ description }) => (
   <div className="mb-12 px-20">
-    <p className="text-lg font-extralight leading-relaxed">
+    <p className="text-2xl font-extralight leading-relaxed">
       {description}
     </p>
   </div>
@@ -49,7 +49,7 @@ const Prefij = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-8 bg-[#fef0e6] min-h-screen">
+    <div className="max-w-6xl mx-auto p-8 bg-[#fef0e6] min-h-screen">
       {/* <h1 className="text-3xl tracking-[1em] font-extralight mb-16 uppercase">
         MENÚ PREFIJO
       </h1> */}

@@ -2,7 +2,7 @@ import React from 'react';
 
 const CourseItem = ({ description, index }) => (
   <div className="mb-12">
-    <p className="text-lg font-extralight leading-relaxed">
+    <p className="text-2xl font-extralight leading-relaxed">
       {description}
     </p>
   </div>
@@ -56,7 +56,7 @@ const Tasting = () => {
    };
 
   return (
-    <div className="max-w-4xl mx-auto p-8 bg-[#fef0e6] min-h-screen">
+    <div className="max-w-6xl mx-auto p-8 bg-[#fef0e6] min-h-screen">
       <div className="space-y-8 mb-16">
         {tastingData.items.map((item, index) => (
           <CourseItem
