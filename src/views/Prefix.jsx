@@ -19,7 +19,7 @@ const Prefix = () => {
   const prefijData = {
     items: [
       {
-        description: "Dzikilpak - roasted pumpkin seed dip - squash blossoms\ncharred scallions and green tomatoes - hierloom coriander\nchive oil - crispy tostadas"
+        description: "Dzikilpak - roasted pumpkin seed dip - squash blossoms\ncharred scallions and green tomatoes - heirloom coriander\nchive oil - crispy tostadas"
       },
       {
         description: "Scallop crudo - basil and coconut salsa verde\npickled onion flowers - scallop chicharrón - sapphire"
@@ -31,7 +31,7 @@ const Prefix = () => {
         isSeparator: true
       },
       {
-        description: "Seared stripped sea bass - charred poblano and tomatillo mole\nfresh coconut and daikon salad - serrano - chive oil"
+        description: "Seared striped sea bass - charred poblano and tomatillo mole\nfresh coconut and daikon salad - serrano - chive oil"
       },
       {
         description: "Grilled Wagyu Flank Steak - smoked yuca mole -\nbone marrow huitlacoche mole - crispy oxtail carnitas"
@@ -40,7 +40,7 @@ const Prefix = () => {
         isSeparator: true
       },
       {
-        description: "Marquesita - goat cheese and coconut icecream - dulce de leche\nguayaba and hibiscus reduction"
+        description: "Marquesita - goat cheese and coconut ice cream - dulce de leche\nguayaba and hibiscus reduction"
       },
       {
         description: "Roasted banana tamal - chamomile & Tabasco chocolate ice cream\npecan crumble - chamomile kombucha reduction"

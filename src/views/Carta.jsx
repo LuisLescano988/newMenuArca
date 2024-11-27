@@ -39,7 +39,7 @@ const Carta = () => {
     },
     {
       "name": "TARTAR VENADO LOCAL",
-      "description": "Salsa macha - jícama - queso cotixa - chaya parrilllada - tostadas\ntatemadas",
+      "description": "Salsa macha - jícama - queso cotixa - chaya parrillada - tostadas\ntatemadas",
       "price": "660"
     },
     {

@@ -38,7 +38,7 @@ const Carte = () => {
       price: "780"
     },
     {
-      name: "VENISSON TARTARE",
+      name: "VENISON TARTARE",
       description: "smoked salsa macha - jícama - cotixa cheese - blood tostadas",
       price: "660"
     },
@@ -60,28 +60,28 @@ const Carte = () => {
     },
     {
       name: "ROASTED PRAWNS",
-      description: "morita chili - plantain vinegar - prawn butter - manzano chili ferment",
+      description: "morita chilli - plantain vinegar - prawn butter - manzano chilli ferment",
       price: "700"
     },
     {
       name: "SMOKED TROUT TOSTADA",
-      description: "crispy skin - trout roe - green allspice leaf sauce emulsion\npickled goose berrys - smoked crema",
+      description: "crispy skin - trout roe - green allspice leaf sauce emulsion\npickled gooseberries - smoked crema",
       price: "800"
     },
     {
-      name: "STRIPPED SEABASS",
+      name: "STRIPED SEABASS",
       description: "seared in coconut oil - green mole - local basil - coconut & jicama slaw",
       price: "800"
     },
     {
       name: "THE WHOLE SQUASH",
-      description: "roasted local squash - quash flowers - grilled squash leafs\ncrispy squash seed",
+      description: "roasted local squash - squash flowers - grilled squash leaves\ncrispy squash seed",
       price: "580",
       isVegetarian: true
     },
     {
       name: "MAYAN OCTOPUS",
-      description: "lentil pure - lentil granola - pickled radishes - longaniza\nxcatic & allspice leaf salsa",
+      description: "lentil purée - lentil granola - pickled radishes - longaniza\nxcatic & allspice leaf salsa",
       price: "780"
     },
     {
@@ -91,7 +91,7 @@ const Carte = () => {
     },
     {
       name: "BONE MARROW",
-      description: "toasted in the woodfire oven - tamarind and pasilla glace\ngrilled pulque sourdough - serrano salsa",
+      description: "toasted in the woodfire oven - tamarind and pasilla glacé\ngrilled pulque sourdough - serrano salsa",
       price: "680"
     },
     {
@@ -101,7 +101,7 @@ const Carte = () => {
     },
     {
       name: "MEXICAN WAGYU TLAYUDA",
-      description: "grilled flank steak - oxtail carnitas - smoked yuca pure - huilacoche mole",
+      description: "grilled flank steak - oxtail carnitas - smoked yuca purée - huilacoche mole",
       price: "900"
     },
     {

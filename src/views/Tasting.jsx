@@ -19,13 +19,13 @@ const Tasting = () => {
   const tastingData = {
     items: [
       {
-        description: "Sea Urchin and scallop ceviche - mandarin, marigold and chile mixe aguachile chapulines - jicama kimchi"
+        description: "Sea Urchin and scallop ceviche - mandarine, marigold and chile mixe aguachile chapulines - jicama kimchi"
       },
       {
         description: "Grilled octopus terrine tostada - cotija cheese crisp\nsmoked peanut and sesame salsa macha"
       },
       {
-        description: "Cured and smoked seabass - fish skin chicharron\nsea weed and lemongrass aguachile"
+        description: "Cured and smoked seabass - fish skin chicharrón\nsea weed and lemongrass aguachile"
       },
       {
         description: "Spider crab flauta - lemongrass and coconut mole - chive emulsion - caviar"
@@ -34,7 +34,7 @@ const Tasting = () => {
         description: "Soft shell crab in amaranth and mezcal tempura - hoja santa emulsion\nfermented habanero and xoconostle salsa"
       },
       {
-        description: "Seared Campeche prawns - morita chili oil - plantain vinegar\nmanzano chili salsa - flour tortillas"
+        description: "Seared Campeche prawns - morita chilli oil - plantain vinegar\nmanzano chilli salsa - flour tortillas"
       },
       {
         description: "Wagyu - black sesame tlayuda - crispy sweetbreads\nbone marrow and huitlacoche mole"
@@ -43,7 +43,7 @@ const Tasting = () => {
         description: "Suckling pig chicharrón - roasted bone marrow - oxtail carnitas\nblood tortillas - salsa verde - cooking juices"
       },
       {
-        description: "Marquesita - goat cheese and coconut icecream - dulce de leche\nguayaba and hibiscus reduction"
+        description: "Marquesita - goat cheese and coconut ice cream - dulce de leche\nguayaba and hibiscus reduction"
       },
       {
         description: "Roasted banana tamal - chamomile & Tabasco chocolate ice cream\npecan crumble - chamomile kombucha reduction"
