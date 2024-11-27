@@ -7,8 +7,8 @@
   ],
   "git": {
     "deploymentEnabled": {
-      "master": false,
-      "cambios-a": true
+      "master": true,
+      "cambios-a": false
     }
   }
 }
