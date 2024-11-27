@@ -101,13 +101,14 @@ const Brevajes = () => {
     ]
   };
 
+const Brebajes = () => {
   return (
     <div className="max-w-6xl mx-auto p-8 bg-[#fef0e6] min-h-screen">
       <MenuSection title="C E R V E Z A" items={beveragesData.cerveza} />
       <MenuSection title="R E F R E S C O S" items={beveragesData.refrescos} />
       <MenuSection title="C A F E T E R I A" items={beveragesData.cafeteria} />
     </div>
-  );
-};
+  )
+}
 
-export default Brevajes;
+export default Brebajes

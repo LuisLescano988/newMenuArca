@@ -14,8 +14,7 @@ const Wines = () => {
   return (
     <div>
         <NavLink className=' to-slate-50 fixed top-5 left-5 rounded-md bg-slate-900'
-            to={'/bebidas'}
-            >
+            to={'/drinks'}>
                 <TiArrowBackOutline className=' text-slate-50' />
             </NavLink>
             <img className=' md:h-full md:m-auto' src={img1} alt="" />

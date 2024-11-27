@@ -126,7 +126,7 @@ const Carta = () => {
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Carta;
+export default Carta
