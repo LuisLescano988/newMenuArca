@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 const SectionTitle = ({ title }) => (
   <h2 className="text-2xl tracking-[1em] font-light mb-8 uppercase">
     {title}
@@ -101,7 +99,6 @@ const Brevajes = () => {
     ]
   };
 
-const Brebajes = () => {
   return (
     <div className="max-w-6xl mx-auto p-8 bg-[#fef0e6] min-h-screen">
       <MenuSection title="C E R V E Z A" items={beveragesData.cerveza} />
@@ -111,4 +108,4 @@ const Brebajes = () => {
   )
 }
 
-export default Brebajes
+export default Brevajes
