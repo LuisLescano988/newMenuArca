@@ -3,15 +3,15 @@ import React from 'react';
 
 
 const SectionTitle = ({ title }) => (
-  <h2 className="text-2xl tracking-[1em] font-light mb-8 uppercase">
+  <h2 className="text-2xl max-sm:text-sm tracking-[1em] font-light mb-8 uppercase">
     {title}
   </h2>
 );
 
 const MenuItem = ({ name, price }) => (
   <div className="flex justify-between items-baseline mb-4">
-    <h3 className="text-2xl font-extralight">{name}</h3>
-    <span className="text-2xl font-extralight">{price}</span>
+    <h3 className="text-2xl max-sm:text-sm font-extralight">{name}</h3>
+    <span className="text-2xl max-sm:text-sm font-extralight">{price}</span>
   </div>
 );
 

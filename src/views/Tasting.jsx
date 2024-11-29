@@ -2,7 +2,7 @@ import React from 'react';
 
 const CourseItem = ({ description, index }) => (
   <div className="mb-12">
-    <p className="text-2xl font-extralight leading-relaxed">
+    <p className="text-2xl max-sm:text-sm font-extralight leading-relaxed">
       {description}
     </p>
   </div>
