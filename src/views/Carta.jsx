@@ -24,75 +24,13 @@ const Carta = () => {
     {
       "name": "DZIKILPAK",
       "description": "Dip de pepitas ahumadas - miso de pepitas - flor de calabaza -\ncilantro criollo - aceite de cebollín - tostadas tatemadas",
-      "price": "520",
+      "price": "390",
       "isVegetarian": true
-    },
-    {
-      "name": "CRUDO DE CALLO DE HACHA",
-      "description": "Aguachile de serrano y tomatillo fermentado - aceite de sacate limón -\npolvo de lechuga de mar - salicornia - chicharrón de callo y amaranto\n- kosho de lima local - aguacate y pepino parrillado",
-      "price": "850"
-    },
-    {
-      "name": "CRUDO DE ATÚN ALETA AZUL",
-      "description": "Aguachile de chile morita y ciruela local fermentada - kosho de jamaica -\noxalis - toronja - rábano sandía lacto fermentado - tostadas de tapioca",
-      "price": "780"
     },
     {
       "name": "TARTAR VENADO LOCAL",
       "description": "Salsa macha - jícama - queso cotixa - chaya parrillada - tostadas\ntatemadas",
-      "price": "660"
-    },
-    {
-      "name": "BROCOLINI PARRILLADO",
-      "description": "Aderezo césar - suero de parmesano - cebollín - parmesano crujiente\n- alcaparras fritas",
-      "price": "550",
-      "isVegetarian": true
-    },
-    {
-      "name": "TACOS DE JAIBA CONCHA SUAVE",
-      "description": "En témpura de amaranto y mezcal - kosho de xoconostle y habanero\n- emulsión de hoja santa - hoja santa parrillada",
-      "price": "600"
-    },
-    {
-      "name": "CAMARONES DE CAMPECHE",
-      "description": "Rostisados en mantequilla de chile morita - vinagre de\nplátano macho - salsa de chile manzano",
-      "price": "700"
-    },
-    {
-      "name": "ESQUITES DE CANGREJO",
-      "description": "Maíz cacahuazintle - carne de cangrejo ahumada - bisque cangrejo\ny coco - polvo de flamboyan - maíz tostado - chorizo",
-      "price": "700"
-    },
-    {
-      "name": "TOSTADA DE TRUCHA AHUMADA",
-      "description": "En hojas de pimiento gorda - chicharrón de piel de trucha - emulsión de\naceite de hojas verdes de pimienta gorda - grosella fermentada - cilantro",
-      "price": "800"
-    },
-    {
-      "name": "LOBINA RAYADA",
-      "description": "Sellada en aceite de coco - mole verde caribeño - ensalada de\ncoco y jícama - serrano - aceite de albahaca local",
-      "price": "800"
-    },
-    {
-      "name": "CALABAZA LOCAL",
-      "description": "A la parrilla - témpura de flores de calabaza - ensalada de hojas de calabaza\ny guías - mole de semillas de calabaza - granola de pepitas tostadas",
-      "price": "580",
-      "isVegetarian": true
-    },
-    {
-      "name": "PULPO AL PASTOR",
-      "description": "Cocinado en tepache - adobo de guajillo - mole de lentejas - granola de\nlentejas - rábanos encurtidos - salsa de chile xcatix y pimienta gorda",
-      "price": "780"
-    },
-    {
-      "name": "CARNITAS DE LECHÓN",
-      "description": "Ahumadas en madera de canela fresca - reducción de orejón -\nverdogala - vinagre de mucílago de cacao local - aceite de hojas\nverdes de canela - tortillas",
-      "price": "850"
-    },
-    {
-      "name": "TUÉTANO ROSTIZADO",
-      "description": "Rostizado al horno de leña - glaseado de tamarindo y\npasilla - chile serrano - pan de pulque a la parrilla",
-      "price": "680"
+      "price": "490"
     },
     {
       "name": "TLAYUDA DE SETAS",
@@ -100,9 +38,71 @@ const Carta = () => {
       "price": "550"
     },
     {
+      "name": "CALABAZA LOCAL",
+      "description": "A la parrilla - témpura de flores de calabaza - ensalada de hojas de calabaza\ny guías - mole de semillas de calabaza - granola de pepitas tostadas",
+      "price": "590",
+      "isVegetarian": true
+    },
+    {
+      "name": "BROCOLINI PARRILLADO",
+      "description": "Aderezo césar - suero de parmesano - cebollín - parmesano crujiente\n- alcaparras fritas",
+      "price": "640",
+      "isVegetarian": true
+    },
+    {
+      "name": "TACOS DE JAIBA CONCHA SUAVE",
+      "description": "En témpura de amaranto y mezcal - kosho de xoconostle y habanero\n- emulsión de hoja santa - hoja santa parrillada",
+      "price": "640"
+    },
+    {
+      "name": "TUÉTANO ROSTIZADO",
+      "description": "Rostizado al horno de leña - glaseado de tamarindo y\npasilla - chile serrano - pan de pulque a la parrilla",
+      "price": "720"
+    },
+    {
+      "name": "CAMARONES DE CAMPECHE",
+      "description": "Rostisados en mantequilla de chile morita - vinagre de\nplátano macho - salsa de chile manzano",
+      "price": "750"
+    },
+    {
+      "name": "ESQUITES DE CANGREJO",
+      "description": "Maíz cacahuazintle - carne de cangrejo ahumada - bisque cangrejo\ny coco - polvo de flamboyan - maíz tostado - chorizo",
+      "price": "790"
+    },
+    {
+      "name": "CRUDO DE ATÚN ALETA AZUL",
+      "description": "Aguachile de chile morita y ciruela local fermentada - kosho de jamaica -\noxalis - toronja - rábano sandía lacto fermentado - tostadas de tapioca",
+      "price": "840"
+    },
+    {
+      "name": "TOSTADA DE TRUCHA AHUMADA",
+      "description": "En hojas de pimiento gorda - chicharrón de piel de trucha - emulsión de\naceite de hojas verdes de pimienta gorda - grosella fermentada - cilantro",
+      "price": "840"
+    },
+    {
+      "name": "CRUDO DE CALLO DE HACHA",
+      "description": "Aguachile de serrano y tomatillo fermentado - aceite de sacate limón -\npolvo de lechuga de mar - salicornia - chicharrón de callo y amaranto\n- kosho de lima local - aguacate y pepino parrillado",
+      "price": "890"
+    },
+    {
+      "name": "LOBINA RAYADA",
+      "description": "Sellada en aceite de coco - mole verde caribeño - ensalada de\ncoco y jícama - serrano - aceite de albahaca local",
+      "price": "940"
+    },
+    {
+      "name": "PULPO AL PASTOR",
+      "description": "Cocinado en tepache - adobo de guajillo - mole de lentejas - granola de\nlentejas - rábanos encurtidos - salsa de chile xcatix y pimienta gorda",
+      "price": "980"
+    },
+    {
       "name": "TLAYUDA DE WAGUY MEXICANO",
       "description": "Sésamo negro - mole de huitlacoche y tuétano - queso\nchiapas - carnitas de rabo de toro",
-      "price": "900"
+      "price": "1180"
+    },
+    {
+      "name": "CARNITAS DE LECHÓN",
+      "description": "Ahumadas en madera de canela fresca - reducción de orejón -\nverdogala - vinagre de mucílago de cacao local - aceite de hojas\nverdes de canela - tortillas",
+      "price": "1240"
     },
     {
       "name": "PAN DE PULQUE",
@@ -117,7 +117,7 @@ const Carta = () => {
       "isVegetarian": true
     }
   ];
-
+  
   return (
     <div className="max-w-6xl mx-auto p-8 bg-[#fef0e6] min-h-screen">
       <div className="space-y-4">
