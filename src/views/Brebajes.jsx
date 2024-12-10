@@ -28,25 +28,29 @@ const Brevajes = () => {
 
   const beveragesData = {
     cerveza: [
-      {
-        name: "Agua De Mar Citrus Pale Ale",
-        price: "220"
-      },
+      // {
+      //   name: "Agua De Mar Citrus Pale Ale",
+      //   price: "220"
+      // },
       {
         name: "Loba Lager",
         price: "180"
       },
-      {
-        name: "La Lupulosa IPA",
-        price: "180"
-      },
-      {
-        name: "Haka Negui Consup Pilsner",
-        price: "200"
-      },
+      // {
+      //   name: "La Lupulosa IPA",
+      //   price: "180"
+      // },
+      // {
+      //   name: "Haka Negui Consup Pilsner",
+      //   price: "200"
+      // },
       {
         name: "Lindemann's Apple Beer",
         price: "200"
+      },
+      {
+        name: "Loba ALFA",
+        price: "180"
       }
     ],
     refrescos: [
