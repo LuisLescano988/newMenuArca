@@ -3,7 +3,7 @@ import React from 'react';
 
 
 const SectionTitle = ({ title }) => (
-  <h2 className="text-2xl max-sm:text-sm tracking-[1em] font-light mb-8 uppercase">
+  <h2 className="text-2xl max-sm:text-sm tracking-[0.5em] font-light mb-8 uppercase">
     {title}
   </h2>
 );
