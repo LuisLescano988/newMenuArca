@@ -13,7 +13,7 @@ const Cocktails = () => {
             >
                 <TiArrowBackOutline className=' text-slate-50' />
             </NavLink>
-            <img className=' md:h-full md:m-auto' src={img1} alt="" />
+            {/* <img className=' md:h-full md:m-auto' src={img1} alt="" /> */}
             <img className='h-screen md:h-full md:m-auto' src={img3} alt="" />
             <img className=' md:h-full md:m-auto' src={img2} alt="" />
         </div>
