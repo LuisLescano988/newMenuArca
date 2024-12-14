@@ -9,12 +9,8 @@ const MenuItem = ({ name, price, description, isVegetarian }) => (
       </h2>
       <span className="text-2xl max-sm:text-sm font-extralight">{price}</span>
     </div>
-    <div className="mt-2 text-2xl max-sm:text-sm text-gray-700 font-extralight tracking-tight leading-relaxed">
-      {description.split('\n').map((line, i) => (
-        <p key={i} className={i > 0 ? 'mt-1' : ''}>
-          {line}
-        </p>
-      ))}
+    <div className="mt-2 text-2xl max-sm:text-sm text-gray-700 font-extralight tracking-tight leading-relaxed whitespace-pre-wrap break-words">
+      {description}
     </div>
   </div>
 );
