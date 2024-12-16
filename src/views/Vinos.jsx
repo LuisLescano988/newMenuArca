@@ -158,7 +158,7 @@ const Vinos = () => {
     }
   ]
 
-  const españa = [
+  const España = [
     {
       "name": "Vetus de Alba, Albariño",
       "description": "2021 Rías Baixas, España",
@@ -276,7 +276,7 @@ const Vinos = () => {
     },
     {
       "name": "Viñas de Ayer 245, Garnacha",
-      "description": "2022 Sierra de Gredos, España ",
+      "description": "2022 Sierra de Gredos, España",
       "price": "2500"
     },
     {
@@ -437,7 +437,7 @@ const Vinos = () => {
   const postre2 = [
     {
       "name": "Maculan, Dindarello, Moscato",
-      "description": "2021 Veneto, Italy",
+      "description": "2021 Veneto, Italia",
       "price": "1800"
     }
   ]
@@ -547,7 +547,7 @@ const Vinos = () => {
           e s p a ñ a
         </h1>
         <div className="">
-          {españa.map((item, index) => (
+          {España.map((item, index) => (
             <VinosItem key={index} {...item} />
           ))}
         </div>
