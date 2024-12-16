@@ -458,7 +458,7 @@ const Vinos = () => {
             <img className=' md:h-full md:m-auto' src={img8} alt="" /> */}
 
       <div className="max-w-6xl mx-auto p-8 bg-[#fef0e6] min-h-screen">
-      <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+      <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           C o p e o 
           <br />
            B l a n c o
@@ -469,7 +469,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           T i n t o
         </h1>
         <div className="">
@@ -478,7 +478,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           r o s a d o
         </h1>
         <div className="">
@@ -487,7 +487,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           e s p u m o s o
         </h1>
         <div className="">
@@ -496,7 +496,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           p o s t r e 
         </h1>
         <div className="">
@@ -505,7 +505,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           b l a n c o 
           <br />
            f r a n c i a 
@@ -516,7 +516,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           i t a l i a
         </h1>
         <div className="">
@@ -525,7 +525,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           a l e m a n i a
         </h1>
         <div className="">
@@ -534,7 +534,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           a u s t r i a
         </h1>
         <div className="">
@@ -543,7 +543,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           e s p a ñ a
         </h1>
         <div className="">
@@ -552,7 +552,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           g r e c i a
         </h1>
         <div className="">
@@ -561,7 +561,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           m e x i c o
         </h1>
         <div className="">
@@ -570,7 +570,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           t i n t o 
           <br />
            f r a n c i a
@@ -581,7 +581,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           i t a l i a
         </h1>
         <div className="">
@@ -590,7 +590,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           e s p a ñ a
         </h1>
         <div className="">
@@ -599,7 +599,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           g r e c i a
         </h1>
         <div className="">
@@ -608,7 +608,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           a r g e n t i n a
         </h1>
         <div className="">
@@ -617,7 +617,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           m e x i c o
         </h1>
         <div className="">
@@ -626,7 +626,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           u s a
         </h1>
         <div className="">
@@ -635,7 +635,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           r o s a d o 
           <br />
           e s p a ñ a
@@ -646,7 +646,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           f r a n c i a
         </h1>
         <div className="">
@@ -655,7 +655,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           m e x i c o
         </h1>
         <div className="">
@@ -664,7 +664,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           s k i n  
           <br />
            c o n t a c t
@@ -677,7 +677,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           m e x i c o
         </h1>
         <div className="">
@@ -686,7 +686,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           e s p u m o s o 
           <br />
           f r a n c i a
@@ -697,7 +697,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           i t a l i a
         </h1>
         <div className="">
@@ -706,7 +706,7 @@ const Vinos = () => {
           ))}
         </div>
 
-        <h1 className="text-4xl md:text-5xl text-slate-800 uppercase mb-12">
+        <h1 className="text-2xl md:text-3xl text-slate-800 uppercase mb-12">
           p o s t r e
         </h1>
         <div className="">
