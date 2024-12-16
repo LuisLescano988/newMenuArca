@@ -73,7 +73,7 @@ const Wines = () => {
   ]
   const espumoso = [
     {
-      "name": "Roncocalino, Francecorta Brut,\nPinot Noir",
+      "name": "Roncocalino, Franciacorta Brut,\nPinot Noir",
       "description": "Lombardy, Italy",
       "price": "400"
     }
