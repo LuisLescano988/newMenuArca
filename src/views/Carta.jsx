@@ -23,85 +23,85 @@ const Carta = () => {
   const menuItems = [
     {
       "name": "DZIKILPAK",
-      "description": "Dip de pepitas ahumadas - miso de pepitas - flor de calabaza -\ncilantro criollo - aceite de cebollín - tostadas tatemadas",
+      "description": "Dip de pepitas ahumadas - miso de pepitas\nflor de calabaza - cilantro criollo\n aceite de cebollín - tostadas tatemadas",
       "price": "390",
       "isVegetarian": true
     },
     {
       "name": "TARTAR VENADO LOCAL",
-      "description": "Salsa macha - jícama - queso cotixa - chaya parrillada - tostadas\ntatemadas",
+      "description": "Salsa macha - jícama - queso cotixa\nchaya parrillada - tostadas tatemadas",
       "price": "490"
     },
     {
       "name": "TLAYUDA DE SETAS",
-      "description": "Setas parrilladas - chicharrón de hongos - mole de huitlacoche\ncebollón - sésamo negro - mastuerzo",
+      "description": "Setas parrilladas - chicharrón de hongos\nmole de huitlacoche - cebollón\nsésamo negro - mastuerzo",
       "price": "550"
     },
     {
       "name": "CALABAZA LOCAL",
-      "description": "A la parrilla - témpura de flores de calabaza - ensalada de hojas de calabaza\ny guías - mole de semillas de calabaza - granola de pepitas tostadas",
+      "description": "A la parrilla - témpura de flores de calabaza\nensalada de hojas de calabaza y guías - mole de semillas de calabaza - granola de pepitas tostadas",
       "price": "590",
       "isVegetarian": true
     },
     {
       "name": "BROCOLINI PARRILLADO",
-      "description": "Aderezo césar - suero de parmesano - cebollín - parmesano crujiente\n- alcaparras fritas",
+      "description": "Aderezo césar - suero de parmesano - cebollín\nparmesano crujiente - alcaparras fritas",
       "price": "640",
       "isVegetarian": true
     },
     {
       "name": "TACOS DE JAIBA CONCHA SUAVE",
-      "description": "En témpura de amaranto y mezcal - kosho de xoconostle y habanero\n- emulsión de hoja santa - hoja santa parrillada",
+      "description": "En témpura de amaranto y mezcal\nkosho de xoconostle y habanero - emulsión de\nhoja santa - hoja santa parrillada",
       "price": "640"
     },
     {
       "name": "TUÉTANO ROSTIZADO",
-      "description": "Rostizado al horno de leña - glaseado de tamarindo y\npasilla - chile serrano - pan de pulque a la parrilla",
+      "description": "Rostizado al horno de leña - glaseado de tamarindo y pasilla - chile serrano - pan de pulque a la parrilla",
       "price": "720"
     },
     {
       "name": "CAMARONES DE CAMPECHE",
-      "description": "Rostisados en mantequilla de chile morita - vinagre de\nplátano macho - salsa de chile manzano",
+      "description": "Rostisados en mantequilla de chile morita\nvinagre de plátano macho - salsa de chile manzano",
       "price": "750"
     },
     {
       "name": "ESQUITES DE CANGREJO",
-      "description": "Maíz cacahuazintle - carne de cangrejo ahumada - bisque cangrejo\ny coco - polvo de flamboyan - maíz tostado - chorizo",
+      "description": "Maíz cacahuazintle - carne de cangrejo ahumada\nbisque cangrejo y coco - polvo de flamboyan\nmaíz tostado - chorizo",
       "price": "790"
     },
     {
       "name": "CRUDO DE ATÚN ALETA AZUL",
-      "description": "Aguachile de chile morita y ciruela local fermentada - kosho de jamaica -\noxalis - toronja - rábano sandía lacto fermentado - tostadas de tapioca",
+      "description": "Aguachile de chile morita y ciruela local fermentada\nkosho de jamaica - oxalis - toronja - rábano sandía lacto fermentado - tostadas de tapioca",
       "price": "840"
     },
     {
       "name": "TOSTADA DE TRUCHA AHUMADA",
-      "description": "En hojas de pimiento gorda - chicharrón de piel de trucha - emulsión de\naceite de hojas verdes de pimienta gorda - grosella fermentada - cilantro",
+      "description": "En hojas de pimiento gorda - chicharrón de piel\n de trucha - emulsión de aceite de hojas verdes de\n pimienta gorda - grosella fermentada - cilantro",
       "price": "840"
     },
     {
       "name": "CRUDO DE CALLO DE HACHA",
-      "description": "Aguachile de serrano y tomatillo fermentado - aceite de sacate limón -\npolvo de lechuga de mar - salicornia - chicharrón de callo y amaranto\n- kosho de lima local - aguacate y pepino parrillado",
+      "description": "Aguachile de serrano y tomatillo fermentado\naceite de sacate limón - polvo de lechuga de mar\nsalicornia - chicharrón de callo y amaranto\nkosho de lima local - aguacate y pepino parrillado",
       "price": "890"
     },
     {
       "name": "LOBINA RAYADA",
-      "description": "Sellada en aceite de coco - mole verde caribeño - ensalada de\ncoco y jícama - serrano - aceite de albahaca local",
+      "description": "Sellada en aceite de coco - mole verde caribeño\nensalada de coco y jícama - serrano - aceite de albahaca local",
       "price": "940"
     },
     {
       "name": "PULPO AL PASTOR",
-      "description": "Cocinado en tepache - adobo de guajillo - mole de lentejas - granola de\nlentejas - rábanos encurtidos - salsa de chile xcatix y pimienta gorda",
+      "description": "Cocinado en tepache - adobo de guajillo\nmole de lentejas - granola de lentejas\nsalsa de chile xcatix y pimienta gorda\nrábanos encurtidos",
       "price": "980"
     },
     {
       "name": "TLAYUDA DE WAGUY MEXICANO",
-      "description": "Sésamo negro - mole de huitlacoche y tuétano - queso\nchiapas - carnitas de rabo de toro",
+      "description": "Sésamo negro - mole de huitlacoche y tuétano\nqueso chiapas - carnitas de rabo de toro",
       "price": "1180"
     },
     {
       "name": "CARNITAS DE LECHÓN",
-      "description": "Ahumadas en madera de canela fresca - reducción de orejón -\nverdogala - vinagre de mucílago de cacao local - aceite de hojas\nverdes de canela - tortillas",
+      "description": "Ahumadas en madera de canela fresca\nvinagre de mucílago de cacao local - reducción de orejón verdogala - aceite de hojas verdes de canela\ntortillas",
       "price": "1240"
     },
     {
