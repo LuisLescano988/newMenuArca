@@ -18,11 +18,11 @@ const Wines = () => {
                 <TiArrowBackOutline className=' text-slate-50' />
             </NavLink>
             {/* <img className=' md:h-full md:m-auto' src={img1} alt="" /> */}
-            <img className=' md:h-full md:m-auto' src={img2} alt="" />
+            {/* <img className=' md:h-full md:m-auto' src={img2} alt="" />
             <img className=' md:h-full md:m-auto' src={img3} alt="" />
             <img className=' md:h-full md:m-auto' src={img4} alt="" />
             <img className=' md:h-full md:m-auto' src={img5} alt="" />
-            <img className=' md:h-full md:m-auto' src={img6} alt="" />
+            <img className=' md:h-full md:m-auto' src={img6} alt="" /> */}
             {/* <img className=' md:h-full md:m-auto' src={img7} alt="" />
             <img className=' md:h-full md:m-auto' src={img8} alt="" /> */}
     </div>
