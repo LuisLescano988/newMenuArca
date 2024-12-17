@@ -36,8 +36,8 @@ const Wines = () => {
       "price": "380"
     },
     {
-      "name": "Vetus Albariño, Albariño",
-      "description": "2021 Rías, Baixas, Spain",
+      "name": "Vetus de Alba, Albariño",
+      "description": "2021 Rías Baixas, Spain",
       "price": "380"
     },
     {
@@ -59,7 +59,7 @@ const Wines = () => {
       "price": "460"
     },
     {
-      "name": "Chateau Targe, Cabernet Franc",
+      "name": "Château Targe, Cabernet Franc",
       "description": "2018 Saumur Champigny, Loire Valley, France",
       "price": "460"
     }
@@ -213,7 +213,7 @@ const Wines = () => {
 
   const tintoFR = [
     {
-      "name": "Chateau Targe, Cabernet Franc",
+      "name": "Château Targe, Cabernet Franc",
       "description": "2022 Saumur Champigny, Loire Valley, France",
       "price": "2100"
     },
@@ -228,7 +228,7 @@ const Wines = () => {
       "price": "12000"
     },
     {
-      "name": "Chateau de Lavernette, Gamay",
+      "name": "Château de Lavernette, Gamay",
       "description": "2020 Beaujolais Village AOC, Burgundy, France",
       "price": "2500"
     },
@@ -295,7 +295,7 @@ const Wines = () => {
 
   const tintoAR = [
     {
-      "name": "Animal Organico, Malbec",
+      "name": "Animal Orgánico, Malbec",
       "description": "2021 Mendoza, Argentina",
       "price": "2100"
     }
@@ -561,7 +561,7 @@ const Wines = () => {
         </div>
 
         <h1 className="text-2xl md:text-4xl text-slate-800 uppercase mb-12">
-          m e x i c o
+          m é x i c o
         </h1>
         <div className="">
           {mexico.map((item, index) => (
@@ -617,7 +617,7 @@ const Wines = () => {
         </div>
 
         <h1 className="text-2xl md:text-4xl text-slate-800 uppercase mb-12">
-          m e x i c o
+          m é x i c o
         </h1>
         <div className="">
           {tintoMX.map((item, index) => (
@@ -655,7 +655,7 @@ const Wines = () => {
         </div>
 
         <h1 className="text-2xl md:text-4xl text-slate-800 uppercase mb-12">
-          m e x i c o
+          m é x i c o
         </h1>
         <div className="">
           {rosaMX.map((item, index) => (
@@ -677,7 +677,7 @@ const Wines = () => {
         </div>
 
         <h1 className="text-2xl md:text-4xl text-slate-800 uppercase mb-12">
-          m e x i c o
+          m é x i c o
         </h1>
         <div className="">
           {skinMX.map((item, index) => (
