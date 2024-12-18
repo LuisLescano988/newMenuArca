@@ -441,6 +441,14 @@ const Wines = () => {
     }
   ]
 
+  const nzelanda = [
+    {
+      "name": "The Hermit Ram, Sauv Blanc",
+      "description": "2022 Cantebury, New Zealand",
+      "price": "2500"
+    }
+  ]
+
   return (
     <div>
       <NavLink className=' to-slate-50 fixed top-5 left-5 rounded-md bg-slate-900'
@@ -529,6 +537,17 @@ const Wines = () => {
         </h1>
         <div className="">
           {alemania.map((item, index) => (
+            <WinesItem key={index} {...item} />
+          ))}
+        </div>
+
+        <h1 className="text-2xl md:text-4xl text-slate-800 uppercase mb-12">
+          n e w 
+          <br />
+          z e a l a n d
+        </h1>
+        <div className="">
+          {nzelanda.map((item, index) => (
             <WinesItem key={index} {...item} />
           ))}
         </div>
